@@ -321,7 +321,7 @@ public class PlayerStateMachine : MonoBehaviour
     private float _currentSpeed;
 
     private bool _isJumping = false;
-    private bool _isGrounded = true;
+    public bool _isGrounded = true;
 
     #endregion
 
